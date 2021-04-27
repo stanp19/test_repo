@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: flex;
+  margin: 20px 0;
+}
+
+.rec-1 {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(247, 102, 102);
+  color: red;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  margin: 0 20px;
+}
+.rect2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.rec-2a {
+  height: 50px;
+  width: 50px;
+  color: #5b5ee1;
+  background-color: #8080ff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  margin-right: 5px;
+}
+.rec-3b {
+  height: 50px;
+  width: 200px;
+  color: #589859;
+  background-color: #80c080;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+.rect3 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+.rec-3a {
+  height: 50px;
+  width: 50px;
+  color: #589859;
+  background-color: #80c080;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+.rec-2b {
+  height: 50px;
+  width: 200px;
+  color: #5b5ee1;
+  background-color: #8080ff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  margin-right: 5px;
+}
+.rect23 {
+  padding-right: 20px;
+}
+.rect4 {
+  display: flex;
+}
+.rec-4a {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  color: #975697;
+  background-color: #c080c0;
+  margin-right: 5px;
+}
+.rec-4b {
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  color: #975697;
+  background-color: #c080c0;
+  margin-right: 5px;
+}
+.rect5 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+.rec-5a {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  color: #e5b15b;
+  background-color: #ffd280;
+}
+.rec-5b {
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  color: #e5b15b;
+  background-color: #ffd280;
+}
+
+.rect45 {
+  margin-right: 20px;
+}
+
+.rec-6 {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: #80ffff;
+  color: #4ecece;
+}

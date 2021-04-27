@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(16, 20px);
+  grid-template-rows: repeat(15, 20px);
+  gap: 1px 1px;
+}
+.red1 {
+  background-color: red;
+}
+.black1 {
+  background-color: black;
+}
+.blue1 {
+  background-color: blue;
+}
